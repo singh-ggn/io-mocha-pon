@@ -1,0 +1,41 @@
+{
+  "name": "webdriverio-course-content",
+  "version": "1.0.0",
+  "description": "WebdriverIO Course Content (examples, exercises and sample site)",
+  "main": "index.js",
+  "scripts": {
+    "start": "http-server sample-site -p 8303",
+    "test": "wdio",
+    "ghPages": "gh-pages -d sample-site",
+    "selser": "selenium-standalone"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/klamping/webdriverio-course-content.git"
+  },
+  "author": "Kevin Lamping",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/klamping/webdriverio-course-content/issues"
+  },
+  "homepage": "https://github.com/klamping/webdriverio-course-content#readme",
+  "dependencies": {
+    "gh-pages": "^0.11.0",
+    "http-server": "^0.9.0"
+  },
+  "devDependencies": {
+    "babel-preset-es2018": "^1.0.0",
+    "chai": "^4.1.2",
+    "chromedriver": "^2.31.0",
+    "selenium-standalone": "^6.12.0",
+    "sync-request": "^4.1.0",
+    "wdio": "^1.0.3",
+    "wdio-browserstack-service": "^0.1.14",
+    "wdio-chromedriver-service": "^0.1.2",
+    "wdio-json-reporter": "^0.3.1",
+    "wdio-mocha-framework": "^0.5.12",
+    "wdio-sauce-service": "^0.4.8",
+    "wdio-visual-regression-service": "^0.8.0",
+    "webdriverio": "^4.10.2"
+  }
+}
